@@ -48,4 +48,4 @@ app.*.map.json
 keys/
 integration_test/
 .dart_tool/
-.idea/
+
