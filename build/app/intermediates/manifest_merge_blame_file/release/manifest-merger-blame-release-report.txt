@@ -1,0 +1,90 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.world_time"
+4    android:versionCode="8"
+5    android:versionName="2.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\tandav\world_time\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\tandav\world_time\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\tandav\world_time\android\app\src\main\AndroidManifest.xml:4:5-66
+11-->C:\tandav\world_time\android\app\src\main\AndroidManifest.xml:4:22-64
+12
+13    <application
+13-->C:\tandav\world_time\android\app\src\main\AndroidManifest.xml:6:4-43:19
+14        android:name="androidx.multidex.MultiDexApplication"
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.1.0] C:\Users\deb01\.gradle\caches\transforms-2\files-2.1\d67cd79abd1ca209502f51c69d23182b\core-1.1.0\AndroidManifest.xml:24:18-86
+16        android:icon="@mipmap/ic_launcher"
+16-->C:\tandav\world_time\android\app\src\main\AndroidManifest.xml:8:9-43
+17        android:label="WaKt" >
+17-->C:\tandav\world_time\android\app\src\main\AndroidManifest.xml:7:9-29
+18        <activity
+18-->C:\tandav\world_time\android\app\src\main\AndroidManifest.xml:9:9-37:20
+19            android:name="com.example.world_time.MainActivity"
+19-->C:\tandav\world_time\android\app\src\main\AndroidManifest.xml:10:13-41
+20            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+20-->C:\tandav\world_time\android\app\src\main\AndroidManifest.xml:13:13-163
+21            android:hardwareAccelerated="true"
+21-->C:\tandav\world_time\android\app\src\main\AndroidManifest.xml:14:13-47
+22            android:launchMode="singleTop"
+22-->C:\tandav\world_time\android\app\src\main\AndroidManifest.xml:11:13-43
+23            android:theme="@style/LaunchTheme"
+23-->C:\tandav\world_time\android\app\src\main\AndroidManifest.xml:12:13-47
+24            android:windowSoftInputMode="adjustResize" >
+24-->C:\tandav\world_time\android\app\src\main\AndroidManifest.xml:15:13-55
+25
+26            <!--
+27                 Specifies an Android theme to apply to this Activity as soon as
+28                 the Android process has started. This theme is visible to the user
+29                 while the Flutter UI initializes. After that, this theme continues
+30                 to determine the Window background behind the Flutter UI.
+31            -->
+32            <meta-data
+32-->C:\tandav\world_time\android\app\src\main\AndroidManifest.xml:20:13-23:17
+33                android:name="io.flutter.embedding.android.NormalTheme"
+33-->C:\tandav\world_time\android\app\src\main\AndroidManifest.xml:21:15-70
+34                android:resource="@style/NormalTheme" />
+34-->C:\tandav\world_time\android\app\src\main\AndroidManifest.xml:22:15-52
+35            <!--
+36                 Displays an Android View that continues showing the launch screen
+37                 Drawable until Flutter paints its first frame, then this splash
+38                 screen fades out. A splash screen is useful to avoid any visual
+39                 gap between the end of Android's launch screen and the painting of
+40                 Flutter's first frame.
+41            -->
+42            <meta-data
+42-->C:\tandav\world_time\android\app\src\main\AndroidManifest.xml:29:13-32:17
+43                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+43-->C:\tandav\world_time\android\app\src\main\AndroidManifest.xml:30:15-79
+44                android:resource="@drawable/launch_background" />
+44-->C:\tandav\world_time\android\app\src\main\AndroidManifest.xml:31:15-61
+45
+46            <intent-filter>
+46-->C:\tandav\world_time\android\app\src\main\AndroidManifest.xml:33:13-36:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->C:\tandav\world_time\android\app\src\main\AndroidManifest.xml:34:17-68
+47-->C:\tandav\world_time\android\app\src\main\AndroidManifest.xml:34:25-66
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->C:\tandav\world_time\android\app\src\main\AndroidManifest.xml:35:17-76
+49-->C:\tandav\world_time\android\app\src\main\AndroidManifest.xml:35:27-74
+50            </intent-filter>
+51        </activity>
+52        <!--
+53             Don't delete the meta-data below.
+54             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+55        -->
+56        <meta-data
+56-->C:\tandav\world_time\android\app\src\main\AndroidManifest.xml:40:9-42:33
+57            android:name="flutterEmbedding"
+57-->C:\tandav\world_time\android\app\src\main\AndroidManifest.xml:41:13-44
+58            android:value="2" />
+58-->C:\tandav\world_time\android\app\src\main\AndroidManifest.xml:42:13-30
+59    </application>
+60
+61</manifest>
